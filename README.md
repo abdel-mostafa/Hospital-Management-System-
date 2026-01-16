@@ -6,15 +6,10 @@ A comprehensive console-based Hospital Management System built in C++, demonstra
 - [Features](#features)
 - [OOP Concepts Demonstrated](#oop-concepts-demonstrated)
 - [System Requirements](#system-requirements)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [File Storage](#file-storage)
 - [Screenshots](#screenshots)
-- [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## ✨ Features
 
 ### Patient Management
@@ -88,40 +83,6 @@ Person (Base Class)
   - MSVC 2013+
 - **Operating System**: Windows, Linux, or macOS
 - **Memory**: Minimal (< 50 MB)
-
-## 🚀 Installation
-
-### Linux/macOS
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/hospital-management-system.git
-
-# Navigate to project directory
-cd hospital-management-system
-
-# Compile the program
-g++ -std=c++11 -o hospital main.cpp
-
-# Run the program
-./hospital
-```
-
-### Windows
-
-```bash
-# Clone the repository
-git clone https://github.com/yourusername/hospital-management-system.git
-
-# Navigate to project directory
-cd hospital-management-system
-
-# Compile using MinGW
-g++ -std=c++11 -o hospital.exe main.cpp
-
-# Run the program
-hospital.exe
-```
 
 ### Using an IDE
 1. Open the project in your IDE (Visual Studio, Code::Blocks, etc.)
@@ -232,75 +193,11 @@ NextAppointmentID
 ```
 ========== PATIENT DETAILS ==========
 ID: 1
-Name: John Doe
-Age: 35
+Name: Abdelrahman
+Age: 27
 Contact: +1234567890
 Medical History: Diabetes, Hypertension
 Current Condition: Stable
 Assigned Doctor ID: 2
 ====================================
 ```
-
-## 🔮 Future Enhancements
-
-- [ ] Billing and payment system
-- [ ] Prescription management
-- [ ] Medical test records
-- [ ] Emergency queue with priority
-- [ ] GUI implementation using Qt or wxWidgets
-- [ ] Database integration (MySQL/PostgreSQL)
-- [ ] Multi-user authentication system
-- [ ] Report generation (PDF/Excel)
-- [ ] Email notifications for appointments
-- [ ] SMS reminders
-- [ ] Search by name functionality
-- [ ] Edit/update existing records
-- [ ] Medical inventory management
-- [ ] Staff attendance tracking
-
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/improvement`)
-3. Make your changes
-4. Commit your changes (`git commit -am 'Add new feature'`)
-5. Push to the branch (`git push origin feature/improvement`)
-6. Create a Pull Request
-
-## 📝 Code Style Guidelines
-
-- Use meaningful variable names
-- Comment complex logic
-- Follow consistent indentation (4 spaces)
-- Keep functions focused and concise
-- Use appropriate access specifiers
-
-## 🐛 Known Issues
-
-- Limited input validation for dates and times
-- No duplicate ID checking when loading from files
-- Limited error handling for file operations
-- No data backup mechanism
-
-
-
-## 🙏 Acknowledgments
-
-- Thanks to my OOP course instructor for project guidance
-- C++ documentation and community resources
-- Stack Overflow community for troubleshooting help
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-- Open an issue on GitHub
-- Contact via email
-- Check existing issues for solutions
-
----
-
-⭐ If you found this project helpful, please give it a star!
-
-**Last Updated**: January 2026
