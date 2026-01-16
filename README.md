@@ -75,20 +75,6 @@ Person (Base Class)
 - **STL Usage**: Vectors, strings, algorithms
 - **Exception Safety**: Input validation and error handling
 
-## 💻 System Requirements
-
-- **Compiler**: Any C++ compiler supporting C++11 or later
-  - GCC 4.8+
-  - Clang 3.3+
-  - MSVC 2013+
-- **Operating System**: Windows, Linux, or macOS
-- **Memory**: Minimal (< 50 MB)
-
-### Using an IDE
-1. Open the project in your IDE (Visual Studio, Code::Blocks, etc.)
-2. Build and run the project
-3. Follow the on-screen menu
-
 ## 📖 Usage
 
 ### Main Menu Options
